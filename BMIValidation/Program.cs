@@ -6,7 +6,7 @@ using System.Drawing;
 ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
 
 // path to your excel file
-string path = "C:\\Projects\\BMIValidation\\BMIValidation\\BMIValidation\\bin\\Debug\\net6.0\\mjerenje.xlsx";
+string path = "D:\\Projects\\BMIValidation1\\BMIValidation\\bin\\Debug\\net6.0\\mjerenja.xlsx";
 FileInfo fileInfo = new FileInfo(path);
 
 ExcelPackage package = new ExcelPackage(fileInfo);
